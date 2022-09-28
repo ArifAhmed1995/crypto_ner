@@ -49,6 +49,6 @@ In `crypto_ner.py` end-user methods `get_keyphrase_matches_single` for passing a
 
 ```
 
-### Improvements
+### TODOs
 - `best_phrases` method in `phrase_tools.py` is the major bottleneck since large language models have to be loaded to find noun-phrases for a sentence.
 - The fine tuning for the `KeyPhraseExtractor` needs to be done via a crypto specific dataset. The current model used is fine tuned on scientific literature. This has proved to be better than the one without fine-tuning and other models which used other types of literature.
