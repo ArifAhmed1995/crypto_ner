@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gzip ./models/crypto_model_word2vec.txt
+python3 -m spacy init vectors en ./models/crypto_model_word2vec.txt.gz ./models/spacy.crypto.word2vec.model
