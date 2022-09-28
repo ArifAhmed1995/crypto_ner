@@ -24,7 +24,7 @@ A combined value of lexical and semantic score is used to determine if the keyph
 
 ### Usage
 
-In `main.py` end-user methods `get_keyphrase_matches_single` for passing a single message string and `get_keyphrase_matches` for a list of messages. The output is a tuple: `(<original_message>, <list_of_relevant_crypto_keyphrases/words>)`.
+In `crypto_ner.py` end-user methods `get_keyphrase_matches_single` for passing a single message string and `get_keyphrase_matches` for a list of messages. The output is a tuple: `(<original_message>, <list_of_relevant_crypto_keyphrases/words>)`.
 
 #### The initial model loads do take time to execute, so if you have a bunch of messages to extract from please use the `get_keyphrase_matches` method.
 
